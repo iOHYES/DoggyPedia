@@ -2,7 +2,7 @@
 //  Constants.swift
 //  DoggyPedia
 //
-//  Created by Chafle, Ujjwal on 18/01/2021.
+//  Created by Chafle, X on 18/01/2021.
 //
 
 import Foundation
