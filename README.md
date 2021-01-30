@@ -6,7 +6,7 @@ So in this project you will be able to search the Breed of a Dog using API from 
 On click of each item in the collection view open new screen showing the details of the selected Dog Breed.
 
 # Approach  : 
-1. When the user launches the DoggyPedia application, they are shwon with the Search Bar at top of the screen and a beautiful "Dog Quote" to start with.
+1. When the user launches the DoggyPedia application, they are shown with the Search Bar at top of the screen and a beautiful "Dog Quote" to start with.
 2. As soon as the user starts typing the Breed Name in the search field, search API call will be made with the letters users has typed. (e.g "https://api.thedogapi.com/v1/breeds/search?q=A")
 3. The above API call returns the array of breed details objects.
 4. For the API call, URLSession is used and for API callbacks, protocol methods are used. 
@@ -16,7 +16,7 @@ On click of each item in the collection view open new screen showing the details
 8. Error message is shown when there is no data available for the search made.
 
 # Code structure and software design patterns : 
-1. ViewController  - controller to handle the search results and popullate the search data into collectionView.
+1. ViewController  - controller to handle the search results and populate the search data into collectionView.
 2. DetailsController - controller to show the details when any item is selected from the search results .
 3. BreedManager -  struct  to manage the Network call to get the details from the API.
 4. BreedData - codable struct to parse the API data.
