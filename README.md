@@ -7,7 +7,7 @@ On click of each item in the collection view open new screen showing the details
 
 # Approach  : 
 1. When the user launches the DoggyPedia application, they are shown with the Search Bar at top of the screen and a beautiful "Dog Quote" to start with.
-2. As soon as the user starts typing the Breed Name in the search field, search API call will be made with the letters users has typed. (e.g "https://api.thedogapi.com/v1/breeds/search?q=A")
+2. As soon as the user starts typing the Breed Name in the search field, search API call will be made with the letters user has typed. (e.g "https://api.thedogapi.com/v1/breeds/search?q=A")
 3. The above API call returns the array of breed details objects.
 4. For the API call, URLSession is used and for API callbacks, protocol methods are used. 
 5. On click of any item from the search results, the Detail screen with details of the selected item is shown.
@@ -31,5 +31,5 @@ On click of each item in the collection view open new screen showing the details
 # Open Issues and Improvements : 
 1. Images in the collection view has flicker issue. - could be fixed by implementing lazy loading of images and caching the images once downloaded.
 2. Proper loading indicators could be added to make UI more user friendly.
-3. Options to Add to faviorute could be implemented.
+3. Options to Add to favorite could be implemented.
 4. Code can be optimised futher, if given time.
